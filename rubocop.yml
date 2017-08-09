@@ -1,0 +1,39 @@
+AllCops:
+  Exclude:
+    - 'bin/**/*'
+    - 'db/**/*'
+  TargetRubyVersion: 2.4
+Lint/AmbiguousBlockAssociation:
+  Exclude:
+    - 'spec/**/*'
+  Enabled: true
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
+  Enabled: true
+Metrics/ClassLength:
+  Exclude:
+    - 'spec/**/*'
+  Enabled: true
+Metrics/LineLength:
+  Max: 100
+Metrics/LineLength:
+  Include:
+    - 'spec/**/*'
+  Max: 130
+Style/ClassAndModuleChildren:
+  Include:
+    - 'app/controllers/**/*'
+  Enabled: false
+Style/Documentation:
+  Exclude:
+    - 'app/controllers/**/*'
+    - 'app/helpers/**/*'
+    - 'app/mailers/**/*'
+    - 'app/models/**/*'
+    - 'app/serializers/**/*'
+    - 'config/**/*'
+    - 'spec/**/*'
+  Enabled: true
+Style/FrozenStringLiteralComment:
+  Enabled: false
