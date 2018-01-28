@@ -6,20 +6,24 @@ AllCops:
 Lint/AmbiguousBlockAssociation:
   Exclude:
     - 'spec/**/*'
+    - 'test/**/*'
   Enabled: true
 Metrics/BlockLength:
   Exclude:
     - 'spec/**/*'
+    - 'test/**/*'
   Enabled: true
 Metrics/ClassLength:
   Exclude:
     - 'spec/**/*'
+    - 'test/**/*'
   Enabled: true
 Metrics/LineLength:
   Max: 100
 Metrics/LineLength:
   Include:
     - 'spec/**/*'
+    - 'test/**/*'
   Max: 130
 Style/ClassAndModuleChildren:
   Include:
@@ -34,6 +38,7 @@ Style/Documentation:
     - 'app/serializers/**/*'
     - 'config/**/*'
     - 'spec/**/*'
+    - 'test/**/*'
   Enabled: true
 Style/FrozenStringLiteralComment:
   Enabled: false
