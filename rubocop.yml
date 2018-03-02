@@ -8,6 +8,9 @@ Lint/AmbiguousBlockAssociation:
     - 'spec/**/*'
     - 'test/**/*'
   Enabled: true
+Metrics/AbcSize:
+  Exclude:
+    - 'test/**/*'
 Metrics/BlockLength:
   Exclude:
     - 'spec/**/*'
@@ -25,6 +28,9 @@ Metrics/LineLength:
     - 'spec/**/*'
     - 'test/**/*'
   Max: 130
+Metrics/MethodLength:
+  Exclude:
+    - 'test/**/*'
 Style/ClassAndModuleChildren:
   Include:
     - 'app/controllers/**/*'
