@@ -15,6 +15,7 @@ Metrics/BlockLength:
   Exclude:
     - 'spec/**/*'
     - 'test/**/*'
+    - 'config/routes.rb'
   Enabled: true
 Metrics/ClassLength:
   Exclude:
