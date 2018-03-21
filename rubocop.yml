@@ -32,6 +32,10 @@ Metrics/LineLength:
 Metrics/MethodLength:
   Exclude:
     - 'test/**/*'
+Naming/UncommunicativeMethodParamName:
+  Exclude:
+    - 'test/**/*'
+    - 'spec/**/*'
 Style/ClassAndModuleChildren:
   Include:
     - 'app/controllers/**/*'
@@ -49,3 +53,6 @@ Style/Documentation:
   Enabled: true
 Style/FrozenStringLiteralComment:
   Enabled: false
+Style/SignalException:
+  Exclude:
+    - 'Dangerfile'
