@@ -37,6 +37,9 @@ Naming/UncommunicativeMethodParamName:
   Exclude:
     - 'test/**/*'
     - 'spec/**/*'
+Style/AndOr:
+  Exclude:
+    - 'app/controllers/**/*'
 Style/ClassAndModuleChildren:
   Include:
     - 'app/controllers/**/*'
