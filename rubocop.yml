@@ -60,3 +60,5 @@ Style/FrozenStringLiteralComment:
 Style/SignalException:
   Exclude:
     - 'Dangerfile'
+Style/StringLiterals: 
+  EnforcedStyle: "double_quotes"
