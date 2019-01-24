@@ -11,7 +11,9 @@ Lint/AmbiguousBlockAssociation:
   Enabled: true
 Metrics/AbcSize:
   Exclude:
+    - 'spec/**/*'
     - 'test/**/*'
+  Max: 20
 Metrics/BlockLength:
   Exclude:
     - 'spec/**/*'
