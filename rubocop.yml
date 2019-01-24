@@ -4,6 +4,8 @@ AllCops:
     - 'db/**/*'
     - vendor/**/*
   TargetRubyVersion: 2.4
+Layout/DotPosition:
+  EnforcedStyle: "trailing"
 Lint/AmbiguousBlockAssociation:
   Exclude:
     - 'spec/**/*'
