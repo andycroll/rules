@@ -3,6 +3,7 @@ AllCops:
     - 'bin/**/*'
     - 'db/**/*'
     - vendor/**/*
+    - node_modules/**/*
   TargetRubyVersion: 2.4
 Layout/DotPosition:
   EnforcedStyle: "trailing"
