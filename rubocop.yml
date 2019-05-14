@@ -22,6 +22,7 @@ Metrics/BlockLength:
     - 'spec/**/*'
     - 'test/**/*'
     - 'config/routes.rb'
+    - "config/environments/*.rb"
   Enabled: true
 Metrics/ClassLength:
   Exclude:
