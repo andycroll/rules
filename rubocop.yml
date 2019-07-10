@@ -4,7 +4,8 @@ AllCops:
     - 'db/**/*'
     - vendor/**/*
     - node_modules/**/*
-  TargetRubyVersion: 2.4
+    - 'spec/*_helper.rb'
+  TargetRubyVersion: 2.6
 Layout/DotPosition:
   EnforcedStyle: "trailing"
 Lint/AmbiguousBlockAssociation:
@@ -16,7 +17,7 @@ Metrics/AbcSize:
   Exclude:
     - 'spec/**/*'
     - 'test/**/*'
-  Max: 20
+  Max: 25
 Metrics/BlockLength:
   Exclude:
     - 'spec/**/*'
@@ -24,11 +25,13 @@ Metrics/BlockLength:
     - 'config/routes.rb'
     - "config/environments/*.rb"
   Enabled: true
+  Max: 30
 Metrics/ClassLength:
   Exclude:
     - 'spec/**/*'
     - 'test/**/*'
   Enabled: true
+  Max: 120
 Metrics/LineLength:
   Max: 100
 Metrics/LineLength:
@@ -39,6 +42,7 @@ Metrics/LineLength:
 Metrics/MethodLength:
   Exclude:
     - 'test/**/*'
+  Max: 25
 Naming/UncommunicativeMethodParamName:
   Exclude:
     - 'test/**/*'
@@ -46,6 +50,8 @@ Naming/UncommunicativeMethodParamName:
 Style/AndOr:
   Exclude:
     - 'app/controllers/**/*'
+Style/BlockDelimiters:
+  EnforcedStyle: 'braces_for_chaining'
 Style/ClassAndModuleChildren:
   Include:
     - 'app/controllers/**/*'
