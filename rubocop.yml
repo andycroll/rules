@@ -51,7 +51,9 @@ Style/AndOr:
   Exclude:
     - 'app/controllers/**/*'
 Style/BlockDelimiters:
-  EnforcedStyle: 'braces_for_chaining'
+  Exclude:
+    - 'test/**/*'
+    - 'spec/**/*'
 Style/ClassAndModuleChildren:
   Include:
     - 'app/controllers/**/*'
