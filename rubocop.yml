@@ -41,7 +41,7 @@ Metrics/MethodLength:
   Exclude:
     - 'test/**/*'
   Max: 25
-Naming/UncommunicativeMethodParamName:
+Naming/MethodParameterName:
   Exclude:
     - 'test/**/*'
     - 'spec/**/*'
