@@ -32,9 +32,7 @@ Metrics/ClassLength:
     - 'test/**/*'
   Enabled: true
   Max: 120
-Metrics/LineLength:
-  Max: 100
-Metrics/LineLength:
+Layout/LineLength:
   Include:
     - 'spec/**/*'
     - 'test/**/*'
@@ -43,7 +41,7 @@ Metrics/MethodLength:
   Exclude:
     - 'test/**/*'
   Max: 25
-Naming/UncommunicativeMethodParamName:
+Naming/MethodParameterName:
   Exclude:
     - 'test/**/*'
     - 'spec/**/*'
